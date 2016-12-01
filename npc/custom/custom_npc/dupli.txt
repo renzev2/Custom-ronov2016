@@ -1,0 +1,80 @@
+alberta.gat,97,135,4	script	Warper::dw_1_1	859,{
+	doevent "dynamic_warper::OnWarperStart";
+}
+aldebaran.gat,135,119,4	duplicate(dw_1_1)	Warper::dw_1_2	859
+amatsu.gat,208,103,4	duplicate(dw_1_1)	Warper::dw_1_3	859
+ayothaya.gat,155,121,4	duplicate(dw_1_1)	Warper::dw_1_4	859
+comodo.gat,195,158,4	duplicate(dw_1_1)	Warper::dw_1_5	859
+einbech.gat,72,122,5	duplicate(dw_1_1)	Warper::dw_1_6	859
+einbroch.gat,86,193,3	duplicate(dw_1_1)	Warper::dw_1_7	859
+geffen.gat,112,67,4	duplicate(dw_1_1)	Warper::dw_1_8	859
+gonryun.gat,152,130,4	duplicate(dw_1_1)	Warper::dw_1_9	859
+hugel.gat,90,127,5	duplicate(dw_1_1)	Warper::dw_1_10	859
+izlude.gat,133,116,4	duplicate(dw_1_1)	Warper::dw_1_11	859
+jawaii.gat,107,182,5	duplicate(dw_1_1)	Warper::dw_1_12	859
+lighthalzen.gat,154,84,6	duplicate(dw_1_1)	Warper::dw_1_13	859
+louyang.gat,217,110,4	duplicate(dw_1_1)	Warper::dw_1_14	859
+xmas.gat,154,126,1	duplicate(dw_1_1)	Warper::dw_1_15	859
+morocc.gat,160,97,4	duplicate(dw_1_1)	Warper::dw_1_16	859
+moscovia.gat,230,198,4	duplicate(dw_1_1)	Warper::dw_1_17	859
+nameless_i.gat,246,218,4	duplicate(dw_1_1)	Warper::dw_1_18	859
+new_zone03.gat,112,175,3	duplicate(dw_1_1)	Warper::dw_1_19	859
+niflheim.gat,193,188,4	duplicate(dw_1_1)	Warper::dw_1_20	859
+payon.gat,180,110,4	duplicate(dw_1_1)	Warper::dw_1_21	859
+prontera.gat,147,172,5	duplicate(dw_1_1)	Warper::dw_1_22	859
+rachel.gat,113,141,5	duplicate(dw_1_1)	Warper::dw_1_23	859
+splendide.gat,197,154,5	duplicate(dw_1_1)	Warper::dw_1_24	859
+thor_camp.gat,245,126,4	duplicate(dw_1_1)	Warper::dw_1_25	859
+umbala.gat,117,152,4	duplicate(dw_1_1)	Warper::dw_1_26	859
+yuno.gat,138,162,4	duplicate(dw_1_1)	Warper::dw_1_27	859
+veins.gat,219,120,7	duplicate(dw_1_1)	Warper::dw_1_28	859
+
+	//==Dungeons: ==================================================//
+
+nameless_n.gat,159,187,4	duplicate(dw_1_1)	Warper::dw_2_1	859
+abyss_01.gat,256,275,4	duplicate(dw_1_1)	Warper::dw_2_2	859
+ama_dun01.gat,229,14,4	duplicate(dw_1_1)	Warper::dw_2_3	859
+anthell01.gat,37,264,4	duplicate(dw_1_1)	Warper::dw_2_4	859
+ayo_fild02.gat,272,153,4	duplicate(dw_1_1)	Warper::dw_2_5	859
+beach_dun2.gat,265,70,4	duplicate(dw_1_1)	Warper::dw_2_6	859
+izlu2dun.gat,104,90,4	duplicate(dw_1_1)	Warper::dw_2_7	859
+c_tower1.gat,199,199,4	duplicate(dw_1_1)	Warper::dw_2_8	859
+mjolnir_02.gat,76,361,4	duplicate(dw_1_1)	Warper::dw_2_9	859
+prt_fild05.gat,274,215,4	duplicate(dw_1_1)	Warper::dw_2_10	859
+einbech.gat,132,249,4	duplicate(dw_1_1)	Warper::dw_2_11	859
+gef_tower.gat,157,36,4	duplicate(dw_1_1)	Warper::dw_2_12	859
+gefenia01.gat,57,172,4	duplicate(dw_1_1)	Warper::dw_2_13	859
+glast_01.gat,370,308,4	duplicate(dw_1_1)	Warper::dw_2_14	859
+gonryun.gat,159,190,4	duplicate(dw_1_1)	Warper::dw_2_15	859
+prt_fild01.gat,138,368,4	duplicate(dw_1_1)	Warper::dw_2_16	859
+ra_fild01.gat,230,329,4	duplicate(dw_1_1)	Warper::dw_2_17	859
+jupe_cave.gat,35,57,4	duplicate(dw_1_1)	Warper::dw_2_18	859
+yuno_fild08.gat,74,10,4	duplicate(dw_1_1)	Warper::dw_2_19	859
+lhz_dun01.gat,157,288,4	duplicate(dw_1_1)	Warper::dw_2_20	859
+yuno_fild03.gat,38,143,5	duplicate(dw_1_1)	Warper::dw_2_21	859
+mosk_fild02.gat,194,252,4	duplicate(dw_1_1)	Warper::dw_2_22	859
+odin_tem01.gat,113,148,4	duplicate(dw_1_1)	Warper::dw_2_23	859
+gef_fild10.gat,63,330,5	duplicate(dw_1_1)	Warper::dw_2_24	859
+pay_arche.gat,42,136,5	duplicate(dw_1_1)	Warper::dw_2_25	859
+moc_ruins.gat,71,163,4	duplicate(dw_1_1)	Warper::dw_2_26	859
+ra_temin.gat,22,318,4	duplicate(dw_1_1)	Warper::dw_2_27	859
+louyang.gat,47,273,4	duplicate(dw_1_1)	Warper::dw_2_28	857
+moc_fild19.gat,110,101,4	duplicate(dw_1_1)	Warper::dw_2_29	859
+alb2trea.gat,74,101,4	duplicate(dw_1_1)	Warper::dw_2_30	859
+tha_scene01.gat,141,195,4	duplicate(dw_1_1)	Warper::dw_2_31	859
+ve_fild03.gat,161,237,4	duplicate(dw_1_1)	Warper::dw_2_32	859
+xmas.gat,140,311,4	duplicate(dw_1_1)	Warper::dw_2_33	859
+tur_dun01.gat,159,240,4	duplicate(dw_1_1)	Warper::dw_2_34	859
+umbala.gat,113,286,4	duplicate(dw_1_1)	Warper::dw_2_35	859
+
+	//==Castles: ===================================================//
+
+alde_gld.gat,186,157,4	duplicate(dw_1_1)	Warper::dw_3_1	859
+gef_fild13.gat,270,225,4	duplicate(dw_1_1)	Warper::dw_3_2	859
+pay_gld.gat,202,173,4	duplicate(dw_1_1)	Warper::dw_3_3	859
+prt_gld.gat,159,91,4	duplicate(dw_1_1)	Warper::dw_3_4	859
+sch_gld.gat,191,245,4	duplicate(dw_1_1)	Warper::dw_3_5	859
+aru_gld.gat,274,254,4	duplicate(dw_1_1)	Warper::dw_3_6	859
+n_castle.gat,101,102,4	duplicate(dw_1_1)	Warper::dw_3_7	859
+
+	//==============================================================//

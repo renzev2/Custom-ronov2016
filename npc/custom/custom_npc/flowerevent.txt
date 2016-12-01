@@ -1,0 +1,51 @@
+prontera,155,157,5	script	Flower Counting	437,{
+if( getgmlevel() < 60 ){
+	mes "This is a Flower Counting Game";
+	mes "I will summon some Flower here, and you have to count the Correct Amount of Flower i summoned.";
+	mes "^FF0000Only Count for the Flower i mentioned^000000";
+	close;
+}
+if( select( "Start Game:RESET" ) == 2 ){
+		killmonster strcharinfo(3),"All";
+		deletepset 1;
+		delwaitingroom;
+		mes "Done";
+		close;
+	}
+// How many Seconds Of Delay will be Apply on Players after Answered.
+set .DelaySec,15;
+
+// What Flowers will be summoned 
+setarray .MonsterList[0],1934,1935,1936;
+
+deletearray .MobCount[0],getarraysize( .MonsterList );
+for( set .@x,153; .@x <= 159; set .@x,.@x + 1 )
+	for( set .@y,146; .@y <= 153; set .@y,.@y + 1 ){
+		set .Summon,rand( getarraysize( .MonsterList ) );
+		monster strcharinfo(3),.@x,.@y,"Count Me",.MonsterList[.Summon],1;
+		set .MobCount[.Summon],.MobCount[.Summon] + 1;
+		sleep2 5;
+		}
+set .TargetID,rand( getarraysize( .MonsterList ) );
+set .TargetCount,.MobCount[.TargetID];
+deletepset 1;
+defpattern 1,"([^:]+):.*"+.TargetCount+".*", "iRight";
+activatepset 1;
+delwaitingroom;
+waitingroom "Target : "+getmonsterinfo( .MonsterList[.TargetID],0 )+" ",0;
+npctalk "Count for the Target Monster's Amount to Win the Game.";
+message strcharinfo(0),"Answer for this Round is  [ "+.TargetCount+" ].";
+close;
+
+iRight:
+if( #EventDelay > gettimetick(2) ){
+	dispbottom "Sorry, Time Penalty : Remain "+( #EventDelay - gettimetick(2) )+" seconds.";
+}else{
+	delwaitingroom;
+	set #EventDelay,gettimetick(2) + .DelaySec;
+	npctalk "[ "+strcharinfo(0)+" ] , You're Correct.";
+	killmonster strcharinfo(3),"All";
+	deletepset 1;
+	}
+end;
+}

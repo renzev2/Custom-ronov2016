@@ -20,7 +20,7 @@
 /// (disable by commenting the line)
 ///
 /// leave this line to enable renewal specific support such as renewal formulas
-#define RENEWAL
+//#define RENEWAL
 
 /// renewal cast time
 /// (disable by commenting the line)
@@ -61,7 +61,7 @@
 /// - AGI has a greater factor in ASPD increase
 /// - there is a change in how skills/items give ASPD
 /// - some skill/item ASPD bonuses won't stack
-#define RENEWAL_ASPD
+//#define RENEWAL_ASPD
 
 #endif
 
